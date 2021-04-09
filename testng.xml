@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="chetansaiSAM">
+<listeners>
+<listener class-name="com.sudeeksha.TestUtilities.Report"></listener>
+</listeners>
+<test name="ebankingtest">
+<parameter name="Browser" value="chrome"/>
+<classes>
+<class name="com.sudeeksha.TestCases.TC_Login"/>
+</classes>
+
+</test>
+</suite>
+
+
+

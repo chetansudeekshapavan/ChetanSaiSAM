@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44263" started-at="2020-06-13T17:23:51Z" finished-at="2020-06-13T17:24:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44263" started-at="2020-06-13T17:23:51Z" finished-at="2020-06-13T17:24:35Z">
+      <class name="com.sudeeksha.TestCases.LoginDDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sudeeksha.TestCases.LoginDDT@134affc]" name="setup" is-config="true" duration-ms="34201" started-at="2020-06-13T10:23:51Z" finished-at="2020-06-13T10:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.sudeeksha.TestCases.LoginDDT@134affc]" name="Login" duration-ms="2476" started-at="2020-06-13T10:24:32Z" data-provider="LoginData" finished-at="2020-06-13T10:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr250825]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gEdYsum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sudeeksha.TestCases.LoginDDT@134affc]" name="tearDown" is-config="true" duration-ms="727" started-at="2020-06-13T10:24:35Z" finished-at="2020-06-13T10:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sudeeksha.TestCases.LoginDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
